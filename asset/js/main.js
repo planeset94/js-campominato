@@ -28,10 +28,6 @@ switch (livello) {
 
 possibilita = limiteMassimo - 16;
 
-
-
-
-
 // 1) Il computer deve generare 16 numeri casuali tra 1 e 100.
 // 2) I numeri non possono essere duplicati.
 
@@ -65,10 +61,8 @@ do {
 
     // INTRODUCO UNO STOP PER FAR USCIRE L'UTENDE DAL GIOCO 
     if (valore == "STOP") {
-        confirm('Sei sicuro di uscire dal gioco?');
-        if (confirm) {
-            break
-        }
+        break
+
     }
 
 
